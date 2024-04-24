@@ -42,7 +42,7 @@ def run(stackargs):
                              default="3")
 
     # declare execution groups
-    stack.add_execgroup("config0-publish:::do::doks",
+    stack.add_execgroup("williaumwu:::digital-ocean::doks",
                         "tf_execgroup")
 
     # Add substack
